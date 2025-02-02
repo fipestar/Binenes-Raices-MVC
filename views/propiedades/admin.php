@@ -10,7 +10,13 @@
 
         <a href="/propiedades/crear" class="boton boton-verde">Nueva Propiedad</a>
         <a href="/vendedores/crear" class="boton boton-amarillo">Nuevo Vendedor</a>
-        <a href="/blogs/crear" class="boton boton-verde">Nuevo Blog</a>
+        <a style="background-color:#09f;" 
+   href="/blogs/crear" 
+   class="boton boton-verde"
+   onmouseover="this.style.backgroundColor='#0077cc';"
+   onmouseout="this.style.backgroundColor='#09f';">
+  Nuevo Blog
+</a>
 
         <h2>Propiedades</h2>
 
